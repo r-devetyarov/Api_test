@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb5bc8f-484d-4a5d-850c-95a2b664e216" name="Default Changelist" comment="Edit fixture , adding class with constructor in conftest.py">
-      <change afterPath="$PROJECT_DIR$/lesson_3_api_testing/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3_api_testing/test_api_dog_homework.py" afterDir="false" />
+    <list default="true" id="2eb5bc8f-484d-4a5d-850c-95a2b664e216" name="Default Changelist" comment="Add first test for dog api">
+      <change afterPath="$PROJECT_DIR$/lesson_3_api_testing/test_open_brewery_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3_api_testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3_api_testing/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3_api_testing/test_api_dog_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3_api_testing/test_api_dog_homework.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +57,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Курсы/[OTUS] Python QA Engineer/[OTUS] Python QA Engineer (2019)/3. Тестирование API/Материалы/python_qa_api-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_api_dog_homework.TestApiDog.test_get_list_all_breeds">
-    <configuration name="pytest for test_api_dog_homework.TestApiDog.test_get_list_all_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_open_brewery_db.TestOpenBreweryTest.test_get_random_single_brewery">
+    <configuration name="pytest for test_api_dog_homework.TestApiDog.test_get_random_image" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_QA_engineer_OTUS_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,81 +73,81 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_dog_homework.TestApiDog.test_get_list_all_breeds&quot;" />
+      <option name="_new_target" value="&quot;test_api_dog_homework.TestApiDog.test_get_random_image&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_homework_1.TestsWithList" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_dog_homework.TestApiDog.test_get_random_image_no_valid_count" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_QA_engineer_OTUS_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_2_pytest_fixture_and_other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_3_api_testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_homework_1.TestsWithList&quot;" />
+      <option name="_new_target" value="&quot;test_api_dog_homework.TestApiDog.test_get_random_image_no_valid_count&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_homework_1.TestsWithList.test_add_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_open_brewery_db.OpenBreweryTest.test_by_city" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_QA_engineer_OTUS_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_2_pytest_fixture_and_other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_3_api_testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_homework_1.TestsWithList.test_add_value&quot;" />
+      <option name="_new_target" value="&quot;test_open_brewery_db.OpenBreweryTest.test_by_city&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_homework_1.TestsWithList.test_edit_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_open_brewery_db.TestOpenBreweryTest.test_by_city" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_QA_engineer_OTUS_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_2_pytest_fixture_and_other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_3_api_testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_homework_1.TestsWithList.test_edit_value&quot;" />
+      <option name="_new_target" value="&quot;test_open_brewery_db.TestOpenBreweryTest.test_by_city&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_homework_1.TestsWithList.test_list_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_open_brewery_db.TestOpenBreweryTest.test_get_random_single_brewery" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_QA_engineer_OTUS_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_2_pytest_fixture_and_other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_3_api_testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_homework_1.TestsWithList.test_list_1&quot;" />
+      <option name="_new_target" value="&quot;test_open_brewery_db.TestOpenBreweryTest.test_get_random_single_brewery&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_api_dog_homework.TestApiDog.test_get_list_all_breeds" />
-        <item itemvalue="Python tests.pytest for test_homework_1.TestsWithList.test_list_1" />
-        <item itemvalue="Python tests.pytest for test_homework_1.TestsWithList" />
-        <item itemvalue="Python tests.pytest for test_homework_1.TestsWithList.test_add_value" />
-        <item itemvalue="Python tests.pytest for test_homework_1.TestsWithList.test_edit_value" />
+        <item itemvalue="Python tests.pytest for test_open_brewery_db.TestOpenBreweryTest.test_get_random_single_brewery" />
+        <item itemvalue="Python tests.pytest for test_open_brewery_db.TestOpenBreweryTest.test_by_city" />
+        <item itemvalue="Python tests.pytest for test_api_dog_homework.TestApiDog.test_get_random_image" />
+        <item itemvalue="Python tests.pytest for test_open_brewery_db.OpenBreweryTest.test_by_city" />
+        <item itemvalue="Python tests.pytest for test_api_dog_homework.TestApiDog.test_get_random_image_no_valid_count" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605852296926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add APIClient in conftest.py">
+      <created>1605881942616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605881942616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add first test for dog api">
+      <created>1605881999798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605881999798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,9 +223,15 @@
     <MESSAGE value="Edit fixture , adding class in conftest.py" />
     <MESSAGE value="Edit fixture , adding class with constructor in conftest.py" />
     <MESSAGE value="Fast commit, not change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fast commit, not change" />
+    <MESSAGE value="Add APIClient in conftest.py" />
+    <MESSAGE value="Add first test for dog api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add first test for dog api" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="410" y="127" key="#Inspections" timestamp="1606072812235">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="127" key="#Inspections/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606072812235" />
     <state x="-1222" y="442" key="#Notifications" timestamp="1605794764410">
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
@@ -219,10 +240,12 @@
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
     <state x="-1192" y="448" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605794673478" />
-    <state x="-1181" y="373" key="FileChooserDialogImpl" timestamp="1605879510090">
-      <screen x="-1920" y="99" width="1920" height="1040" />
+    <state x="591" y="217" key="FileChooserDialogImpl" timestamp="1606069587177">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1181" y="373" key="FileChooserDialogImpl/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605879510090" />
+    <state x="591" y="217" key="FileChooserDialogImpl/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606069587177" />
+    <state x="591" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605988252903" />
     <state x="-1147" y="516" key="Github.ShareDialog" timestamp="1605789462094">
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
@@ -231,37 +254,46 @@
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
     <state x="-1186" y="323" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605789474796" />
-    <state width="1899" height="482" key="GridCell.Tab.0.bottom" timestamp="1605881771004">
+    <state width="1500" height="326" key="GridCell.Tab.0.bottom" timestamp="1606073277855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1899" height="678" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1606072528601" />
+    <state width="1500" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606073277855" />
+    <state width="1515" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605988544585" />
+    <state width="1500" height="326" key="GridCell.Tab.0.center" timestamp="1606073277854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1899" height="678" key="GridCell.Tab.0.center/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1606072528600" />
+    <state width="1500" height="326" key="GridCell.Tab.0.center/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606073277854" />
+    <state width="1515" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605988544584" />
+    <state width="1500" height="326" key="GridCell.Tab.0.left" timestamp="1606073277854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1899" height="678" key="GridCell.Tab.0.left/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1606072528600" />
+    <state width="1500" height="326" key="GridCell.Tab.0.left/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606073277854" />
+    <state width="1515" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605988544584" />
+    <state width="1500" height="326" key="GridCell.Tab.0.right" timestamp="1606073277855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1899" height="678" key="GridCell.Tab.0.right/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1606072528601" />
+    <state width="1500" height="326" key="GridCell.Tab.0.right/0.0.1536.824/-1920.99.1920.1040@0.0.1536.824" timestamp="1606073277855" />
+    <state width="1515" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605988544584" />
+    <state x="-1459" y="263" key="SettingsEditor" timestamp="1605882075654">
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
-    <state width="1899" height="482" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605881771004" />
-    <state width="1899" height="482" key="GridCell.Tab.0.center" timestamp="1605881771003">
+    <state x="-1459" y="263" key="SettingsEditor/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605882075654" />
+    <state x="-1368" y="351" key="Vcs.Push.Dialog.v2" timestamp="1605882018682">
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
-    <state width="1899" height="482" key="GridCell.Tab.0.center/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605881771003" />
-    <state width="1899" height="482" key="GridCell.Tab.0.left" timestamp="1605881771003">
-      <screen x="-1920" y="99" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="482" key="GridCell.Tab.0.left/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605881771003" />
-    <state width="1899" height="482" key="GridCell.Tab.0.right" timestamp="1605881771003">
-      <screen x="-1920" y="99" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="482" key="GridCell.Tab.0.right/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605881771003" />
-    <state x="-1459" y="263" key="SettingsEditor" timestamp="1605879528035">
-      <screen x="-1920" y="99" width="1920" height="1040" />
-    </state>
-    <state x="-1459" y="263" key="SettingsEditor/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605879528035" />
-    <state x="-1368" y="351" key="Vcs.Push.Dialog.v2" timestamp="1605852311882">
-      <screen x="-1920" y="99" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="351" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605852311882" />
+    <state x="-1368" y="351" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605882018682" />
     <state x="-1253" y="175" width="586" height="888" key="find.popup" timestamp="1605794928898">
       <screen x="-1920" y="99" width="1920" height="1040" />
     </state>
     <state x="-1253" y="175" width="586" height="888" key="find.popup/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605794928898" />
-    <state x="-1297" y="324" width="672" height="678" key="search.everywhere.popup" timestamp="1605880930201">
-      <screen x="-1920" y="99" width="1920" height="1040" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1605988064824">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1297" y="324" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.99.1920.1040@-1920.99.1920.1040" timestamp="1605880930201" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605988064824" />
   </component>
 </project>
