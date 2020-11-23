@@ -15,7 +15,10 @@ class APIClient:
         return requests.get(url=request_url, params=params, data=data, headers=headers)
 
     def post_request(self, path, params=None):
-        request_url = self.base_url + path
+        if path is None:
+            request_url = self.base_url
+        else:
+            request_url = self.base_url + path
         return requests.post(url=request_url, params=params)
 
 
