@@ -14,12 +14,26 @@ class APIClient:
             request_url = self.base_url + path
         return requests.get(url=request_url, params=params, data=data, headers=headers)
 
-    def post_request(self, path, params=None):
+    def post_request(self, path=None, data=None):
         if path is None:
             request_url = self.base_url
         else:
             request_url = self.base_url + path
-        return requests.post(url=request_url, params=params)
+        return requests.post(url=request_url, data=data)
+
+    def put_request(self, path=None, data=None):
+        if path is None:
+            request_url = self.base_url
+        else:
+            request_url = self.base_url + path
+        return requests.put(url=request_url, data=data)
+
+    def delete_request(self, path=None, data=None):
+        if path is None:
+            request_url = self.base_url
+        else:
+            request_url = self.base_url + path
+        return requests.delete(url=request_url, params=data)
 
 
 @pytest.fixture
@@ -30,3 +44,20 @@ def dog_api_client():
 @pytest.fixture
 def open_brewery_db_client():
     return APIClient(base_url='https://api.openbrewerydb.org/breweries')
+
+
+@pytest.fixture
+def json_place_holder_client():
+    return APIClient(base_url='https://jsonplaceholder.typicode.com/')
+
+
+@pytest.fixture
+def json_create_new_post(json_place_holder_client):
+    data = {'title': 'TITLE: This post will be deleted',
+            'body': 'TITLE: This post will be deleted',
+            'userId': 1}
+    response = json_place_holder_client.post_request(path='posts', data=data)
+    if response.status_code == 201:
+        return response
+    else:
+        raise print('Ошибка создания новго поста')
