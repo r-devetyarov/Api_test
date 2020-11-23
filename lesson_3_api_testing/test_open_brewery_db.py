@@ -1,5 +1,4 @@
 import pytest
-import pprint
 import random
 
 
@@ -24,9 +23,14 @@ class TestOpenBreweryTest:
                               ('houston', 'Houston')])
     def test_by_city(self, open_brewery_db_client, cites, excepted_result):
         response = open_brewery_db_client.get_request(params={'by_city': cites})
-        # print(response.url)
-        # pprint.pprint(response.json())
         assert response.status_code == 200
         for item in range(len(response.json())):
             assert response.json()[item]['country'] == 'United States'
             assert response.json()[item]['city'] == excepted_result
+
+    @pytest.mark.parametrize('search_world', ['dog', 'cat', 'man'])
+    def test_search_breweries(self, open_brewery_db_client, search_world):
+        response = open_brewery_db_client.get_request(path='/search', params={'query': search_world})
+        assert response.status_code == 200
+        for item in range(len(response.json())):
+            assert search_world in response.json()[item]['name'].lower()
