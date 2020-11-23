@@ -61,3 +61,17 @@ def json_create_new_post(json_place_holder_client):
         return response
     else:
         raise print('Ошибка создания новго поста')
+
+
+def pytest_addoption(parser):
+    parser.addoption("--url", action="store", default="https://ya.ru", help="This is request URL")
+
+
+@pytest.fixture
+def url_param(request):
+    return request.config.getoption("--url")
+
+
+@pytest.fixture
+def request_get_url_params(url_param):
+    return APIClient(base_url=url_param).get_request()
