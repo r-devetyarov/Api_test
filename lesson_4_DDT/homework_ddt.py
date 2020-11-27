@@ -12,7 +12,7 @@ for item in data_list:
     data_lastname.append(r[0])
     data_name.append(r[1])
     data_middle_name.append(r[2])
-    data_city.append(str(r[3]).replace(',', '').replace('0', '').replace('1', ''))
+    data_city.append(r[3].replace(',', '').replace('0', '').replace('1', ''))
 
 new_data_list = [[lastname, name, middle_name, city, credit_card, deposit, mortgage]
                  for lastname in data_lastname
@@ -24,14 +24,18 @@ new_data_list = [[lastname, name, middle_name, city, credit_card, deposit, mortg
                  for mortgage in ['+', '-']]
 
 
-def data_test_create():
+def data_test_create(count):
     data_file = open('test.txt', 'a')
+    n = 0
     for i in new_data_list:
         for word in i:
             data_file.write(word)
             data_file.write(' ')
         data_file.write('\n')
+        n += 1
+        if n == count:
+            break
     data_file.close()
 
 
-data_test_create()
+data_test_create(10)
